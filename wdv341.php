@@ -7,7 +7,9 @@
 	<h2>Homework Links</h2>
 	<?php echo '
     <ul>
-		<li><a href="2-1.html">Assignment 2-1</a></li>
+		<li><a href="2-1.html">Unit 2</a></li>
+		<li><a href="PHPBasics.php">Unit 3</a></li>
+		<li><a href="PHPFunctions.php">Unit 4</a></li>
 	<ul>'
     ?>
 </body>
