@@ -11,6 +11,7 @@
 		<li><a href="PHPBasics.php">Unit 3</a></li>
 		<li><a href="PHPFunctions.php">Unit 4</a></li>
 		<li><a href="WDV101-DemonstrateInputForm/WDV101-DemonstrateInputForm.html">Unit 5</a></li>
+		<li><a href="ContactFormProject/ContactForm.html">Contact Form Project</a></li>
 	<ul>'
     ?>
 </body>

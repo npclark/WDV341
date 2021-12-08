@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact Form with Email</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            width: 600px;
+            margin: auto;
+            background-color: aqua;
+            padding-left: 20px;
+        }
+
+        form legend {
+            font-size: larger;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>WDV341 Intro to PHP</h1>
+    <h2>Project: Contact Form with Email</h2>
+
+    <form id="form" name="form" method="post" action="FormHandler.php">
+        <legend>Contact Form</legend>
+
+        <p>
+            <label for="contactName">Contact Name:</label>
+            <input type="text" name="contactName" id="contactName">
+        </p>
+
+        <p>
+            <label for="contactEmail">Contact Email:</label>
+            <input type="email" name="contactEmail" id="contactEmail">
+        </p>
+
+        <p>
+            <label for="contactReason">Reason for contact:</label>
+            <select name="contactReason" id="contactReason">
+                <option value="none" hidden selected disabled>~Select an option~</option>
+                <option value="piano">You saw the piano ad in the paper</option>
+                <option value="job">You are interested in a job</option>
+                <option value="date">You found my dating profile online</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="comments">Comments:</label> <br>
+            <textarea id="comments" name="comments" rows=4 cols=50>No comment</textarea>
+        </p>
+
+        <p>
+            <input type="submit" name="button" id="button" value="Submit">
+        </p>
+    </form>
+</body>
+</html>
