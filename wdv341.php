@@ -12,7 +12,8 @@
 		<li><a href="PHPFunctions.php">Unit 4</a></li>
 		<li><a href="WDV101-DemonstrateInputForm/WDV101-DemonstrateInputForm.html">Unit 5</a></li>
 		<li><a href="ContactFormProject/ContactForm.html">Contact Form Project</a></li>
-		<li><a href="Database/selectEvents.php">Assignment 7-1</a></li>
+		<li><a href="database/selectEvents.php">Assignment 7-1</a></li>
+		<li><a href="database/selectOneEvent.php">Assignment 7-2</a></li>
 	<ul>'
     ?>
 </body>
