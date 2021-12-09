@@ -1,8 +1,31 @@
 <html>
 <header>
     <title>Assignment 7-1</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        table {
+            background-color: aqua;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
 </header>
 <body>
+<h1>Intro to PHP</h1>
+<h2>Assignment 7-1 selectEvents</h2>
 <?php
     echo "<table style='border: sold 1px black;'>";
     echo "<tr><th>ID</th><th>Name</th><th>Description</th><th>Presenter</th><th>Date</th><th>Time</th><th>Date Inserted</th><th>Date Updated</th></tr>";
